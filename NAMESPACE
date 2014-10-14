@@ -1,0 +1,14 @@
+export("highTtest")
+exportMethods(
+    "BH",
+    "CK",
+    "pi_alt",
+    "plot",
+    "pvalue",
+    "ST",
+    "vennD" 
+)
+exportClasses("highTtest")
+import("methods")
+import("colorfulVennPlot")
+
