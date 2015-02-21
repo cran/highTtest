@@ -109,7 +109,8 @@ can be generated using
          ST). Additional plot controls can be passed through the ellipsis.
 
 When comparisons to the ST and BH methods are requested, Venn diagrams
-can be generated using 
+can be generated using provided that package colorfulVennPlot is
+installed.
 
     \code{vennD(x, gamma, ...)}: Generates 
         two- and three-dimensional Venn diagrams comparing the
@@ -160,8 +161,9 @@ colSums(BH(obj))
 
 #Plot the number of significant features identified in each method
 plot(obj, main="Example plot")
+ltry <- try(library(colorfulVennPlot),silent=TRUE)
 
-vennD(obj, 0.8, Title="Example vennD")
+if( !is(ltry,"try-error") ) vennD(obj, 0.8, Title="Example vennD")
 
 #Proportion of alternative hypotheses
 pi_alt(obj)

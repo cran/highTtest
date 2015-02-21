@@ -7,6 +7,11 @@ setMethod("vennD",
   signature = c(x="highTtest", gamma="numeric"),
   definition = function(x, gamma, ...){
 
+    if( !requireNamespace("colorfulVennPlot", quietly=TRUE) ) {
+      stop("R package colorfulVennPlot is requireded for this function.", 
+           call.=FALSE)
+    }
+
     tst <- x@gammas - gamma
     igamma <- which(tst > -1e-8 & tst < 1e-8)
 
@@ -65,7 +70,7 @@ venn2 <- function(x, igamma,...){
 
   plot.new()
 
-  do.call(plotVenn2d,args)
+  do.call(colorfulVennPlot::plotVenn2d,args)
 
 }
 
@@ -106,7 +111,7 @@ venn3 <- function(x, igamma, ...){
 
   plot.new()
 
-  do.call(plotVenn3d,args)
+  do.call(colorfulVennPlot::plotVenn3d,args)
 
 
 }

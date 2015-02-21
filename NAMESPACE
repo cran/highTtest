@@ -10,5 +10,4 @@ exportMethods(
 )
 exportClasses("highTtest")
 import("methods")
-import("colorfulVennPlot")
 
