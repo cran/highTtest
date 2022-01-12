@@ -10,4 +10,6 @@ exportMethods(
 )
 exportClasses("highTtest")
 import("methods")
+importFrom("graphics", "legend", "lines", "par", "plot.new", "points")
+importFrom("stats", "p.adjust", "pnorm", "smooth.spline", "t.test")
 
