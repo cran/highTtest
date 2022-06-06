@@ -1,4 +1,4 @@
-e2a17ef912ec00bb43e750a996e114fd *DESCRIPTION
+fde49fd2cdb6b764f71a8608cf74a56f *DESCRIPTION
 8b04136c70e42fc94fa4869001134e88 *NAMESPACE
 837e2df04fe271adc4ca0d5d6dbddc0a *R/All_Classes.R
 37deb842b40740c855439aacdb157f26 *R/BenjaminiHochberg.R
@@ -9,7 +9,7 @@ bafa75d98e65c8903f89ee8001ce3ad5 *R/methods-plot.R
 6b10b31c59f6c106305478b7c68da674 *R/methods-retrieve.R
 a16b4c7b80a79ea1934d5042469b452b *R/methods-venn.R
 1427ed1d2cf9a5c6205c63b8720d00d6 *R/tStatistic.R
-fd55fa5aefd46f151317e274c0ae0d79 *man/highTtest-class.Rd
-eea3c917fbb32fa1d818075483d87fc0 *man/highTtest.Rd
+19c8b5c6b21b1b32888a22ce85db21a0 *man/highTtest-class.Rd
+aadeb3041232eebdfa69a3ea417e5b33 *man/highTtest.Rd
 9cff24049e65fd8fdef5d2be74541a74 *man/plot-methods.Rd
 ddd97b236ca3ec79788a9bb1688b7c9c *man/vennD-methods.Rd

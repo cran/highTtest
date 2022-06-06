@@ -142,8 +142,8 @@ Statistical significance for genomewide studies.
 }
 \author{
 Authors: Hongyuan Cao, Michael R. Kosorok, and 
-Shannon T. Holloway <sthollow@ncsu.edu> 
-Maintainer: Shannon T. Holloway <sthollow@ncsu.edu> 
+Shannon T. Holloway <shannon.t.holloway@gmail.com> 
+Maintainer: Shannon T. Holloway <shannon.t.holloway@gmail.com> 
 }
 
 \examples{
