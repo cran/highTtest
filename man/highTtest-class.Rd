@@ -88,7 +88,7 @@ This object should not be created by users.
     \item{vennD}{\code{signature(x = "highTtest")}: Generates 
         two- and three-dimensional Venn diagrams comparing the
         features selected by each method. Implements methods of
-        package \pkg{colorfulVennPlot}. In addition to the \code{highTtest}
+        package \pkg{VennDiagram}. In addition to the \code{highTtest}
         object, the level of significance, \code{gamma}, must
         also be provided.
 	 }

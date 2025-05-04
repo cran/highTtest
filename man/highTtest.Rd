@@ -109,16 +109,15 @@ can be generated using
          ST). Additional plot controls can be passed through the ellipsis.
 
 When comparisons to the ST and BH methods are requested, Venn diagrams
-can be generated using provided that package colorfulVennPlot is
-installed.
+can be generated.
 
     \code{vennD(x, gamma, ...)}: Generates 
         two- and three-dimensional Venn diagrams comparing the
         features selected by each method. Implements methods of
-        package \pkg{colorfulVennPlot}. In addition to the \code{highTtest}
+        package \pkg{VennDiagram}. In addition to the \code{highTtest}
         object, the level of significance, \code{gamma}, must
         also be provided. Most control argument of the
-        \pkg{colorfulVennPlot} package can be passed through the ellipsis.
+        \pkg{VennDiagram} package can be passed through the ellipsis.
 
 
 }
@@ -161,9 +160,7 @@ colSums(BH(obj))
 
 #Plot the number of significant features identified in each method
 plot(obj, main="Example plot")
-ltry <- try(library(colorfulVennPlot),silent=TRUE)
-
-if( !is(ltry,"try-error") ) vennD(obj, 0.8, Title="Example vennD")
+vennD(obj, 0.8, Title="Example vennD")
 
 #Proportion of alternative hypotheses
 pi_alt(obj)

@@ -1,5 +1,6 @@
-fde49fd2cdb6b764f71a8608cf74a56f *DESCRIPTION
-8b04136c70e42fc94fa4869001134e88 *NAMESPACE
+961986cb9e0e2e4fb4b34eff7573cb10 *DESCRIPTION
+f6de5576cb62a0209b447c4482fa1c4a *NAMESPACE
+4a5f7c4a9ed482192f63e71e38083e93 *NEWS
 837e2df04fe271adc4ca0d5d6dbddc0a *R/All_Classes.R
 37deb842b40740c855439aacdb157f26 *R/BenjaminiHochberg.R
 d5b9bc8ac74e809cfa313d6f1b99bcd5 *R/CaoKosorok.R
@@ -7,9 +8,9 @@ d5b9bc8ac74e809cfa313d6f1b99bcd5 *R/CaoKosorok.R
 06c979928b34e71c23770eea1da1e7eb *R/highTtest.R
 bafa75d98e65c8903f89ee8001ce3ad5 *R/methods-plot.R
 6b10b31c59f6c106305478b7c68da674 *R/methods-retrieve.R
-a16b4c7b80a79ea1934d5042469b452b *R/methods-venn.R
+16fa65b79d026107652fd6d4d60be20c *R/methods-venn.R
 1427ed1d2cf9a5c6205c63b8720d00d6 *R/tStatistic.R
-19c8b5c6b21b1b32888a22ce85db21a0 *man/highTtest-class.Rd
-aadeb3041232eebdfa69a3ea417e5b33 *man/highTtest.Rd
+43cda18aff871e4486305d129c4ef9eb *man/highTtest-class.Rd
+d05754ca281bb9a28ddec354871a0b71 *man/highTtest.Rd
 9cff24049e65fd8fdef5d2be74541a74 *man/plot-methods.Rd
-ddd97b236ca3ec79788a9bb1688b7c9c *man/vennD-methods.Rd
+be1572c1ccccab9c333ed030e227a7c2 *man/vennD-methods.Rd
